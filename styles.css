@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+justify-content: center;
+color: #d48bd1;
+margin: 15px 0px 15px 0px;
+}
+
+.gallery-img {
+    display: none;
+    max-height: 600px;
+    border: 10px solid #d48bd1;
+    padding: 5px 5px;
+    margin: 5px 0;
+}
+
+.active {
+    display: block;
+}
+
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #8BD48E;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #9ada9d;
+    color: white;
+}
+
+.prev {
+    margin-right: 15px;
+}
+
+.btn:disabled {
+    background-color: #d48bd1;
+    cursor: not-allowed;
+}
+
+.swiper {
+    width: 600px;
+    height: 600px;
+    text-align: center;
+}
+
+img {
+    height: 600px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #d48bd1;
+    
+}
